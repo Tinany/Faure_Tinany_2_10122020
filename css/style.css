@@ -70,3 +70,24 @@ display: none;
 }
 /*Main*/
 /*Footer*/
+/*Footer*/
+
+footer{
+grid-area: footer;
+width: 100%;
+background-color: #ececec;
+height: fit-content;
+display: flex;
+flex-direction: row;
+}
+.footerContainer{
+width: 30%;
+margin: 50px;
+line-height: 2;
+}
+.footerLinks {
+list-style: none;
+}
+.footerLinks:hover{
+cursor: pointer;
+}
