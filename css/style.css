@@ -70,8 +70,6 @@ display: none;
 }
 /*Main*/
 /*Footer*/
-/*Footer*/
-
 footer{
 grid-area: footer;
 width: 100%;
@@ -82,7 +80,7 @@ flex-direction: row;
 }
 .footerContainer{
 width: 30%;
-margin: 50px;
+margin: 35px;
 line-height: 2;
 }
 .footerLinks {
