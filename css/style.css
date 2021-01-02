@@ -1,0 +1,72 @@
+/*Body*/
+*{
+margin: 0;
+padding:0;
+}
+.bodyContainer{
+font-family: 'Raleway', sans-serif;
+width: 95%;
+margin-left: auto; /*evenly distributed*/
+margin-right: auto; /*evenly distributed*/
+height: auto; /*adjust height*/
+padding-left: 2.5%;
+padding-right: 2.5%;
+display: grid;
+grid-template-columns: 67% 33%; /*Columns width*/
+grid-template-rows: repeat(5,0.1fr); /*repeated fragment for recurring pattern*/
+grid-template-areas: /*names columns and rows*/
+    "header header"
+    "leading leading"
+    "accommodations mostPopular"
+    "activities activities"
+    "footer footer";
+grid-gap: .5rem;        
+}
+a{
+text-decoration: none;
+color: inherit;
+}
+/*Header*/
+header{
+grid-area: header;
+height: 100px;
+}
+/*Logo*/
+.logo{
+float: left;
+margin-top: 60px;
+width: 50px;
+}
+/*Navigation List*/
+.navList{
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.navList ul{
+display: flex;
+flex-direction: row;
+flex-wrap: wrap; /*onto multiple lines*/
+gap: 50px;
+}
+.navList ul li{
+list-style-type: none;
+padding: 50px 15px;
+margin: 0 5px;
+font-size: 15px;
+}
+.navLink[data-active=true], .navLink:hover{
+color:#0065FC;
+border-top: 2px solid #0065FC;
+font-weight: 700;
+}
+/*signIn*/
+.signIn_1{
+color:#0065FC;
+font-weight: 700;
+}
+.signIn_2{
+display: none;
+}
+/*Main*/
+/*Footer*/
