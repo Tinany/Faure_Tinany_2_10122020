@@ -112,6 +112,7 @@ width: 200px;
 font-size: 15px;
 padding: 10px;
 border: 1px solid #ececec;
+outline: none;
 }
 ::placeholder{
 font-weight: 700;
@@ -127,6 +128,7 @@ margin: 0 -10px;
 border: none; /*remove default button border*/
 color: #fff;
 cursor: pointer;
+outline: none;
 }
 .searchIcon_1{
 background-color: #F2F2F2;
@@ -157,6 +159,7 @@ border: 1px solid #ddd;
 border-radius: 40px;
 background-color: #fff;
 margin: 0 12px;
+outline: none;
 }
 .filterBtn:hover{
 box-shadow: 0 5px 5px 0 #DEEBFF,0 7px 7px 0 #DEEBFF;
