@@ -1,5 +1,5 @@
 # RESERVIA </br>
-> Projet 2 - Parcours de formation "Développeur web" - OpenClassroom </br>
+> Projet 2 - Parcours de formation "Développeur web" - OpenClassrooms </br>
 
 **Author :** Faure Tinany </br>
 **Starting date :** 02/01/2021 </br>
