@@ -130,7 +130,48 @@ color: #000;
 .searchIcon_2{
 display: none;
 }
-
+/*Filters*/
+.filterContainers{
+margin: 25px 0 20px;
+display: inline-flex;
+flex-direction: row;
+flex-wrap: wrap;
+gap: 10px;
+}
+.filterLabel{
+margin: auto 10px;
+}
+.filterBtn{
+border: 1px solid #ddd;
+border-radius: 40px;
+background-color: #fff;
+margin: 0 12px;
+}
+.filterBtn:hover{
+box-shadow: 0 5px 5px 0 #DEEBFF,0 7px 7px 0 #DEEBFF;
+cursor: pointer;
+}
+.filterElement{
+display: flex;
+flex-direction: row;
+border: 1px solid #ddd;
+border-radius: 40px;
+height: 40px;
+line-height: 40px;
+}
+.filterIcon{
+text-align: center;
+background-color:#DEEBFF;
+color: #0065FC;
+border-radius: 40px;
+width: 40px;
+}
+.filterLegend{
+color:#000;
+font-size: medium;
+font-weight: 700;
+padding: 0 10px;
+}
 /*Footer*/
 footer{
 grid-area: footer;
