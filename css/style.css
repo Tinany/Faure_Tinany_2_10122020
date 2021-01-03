@@ -110,9 +110,11 @@ margin-top: 8px;
 .searchInput{
 width: 200px;
 font-size: 15px;
-font-weight: 700;
 padding: 10px;
 border: 1px solid #ececec;
+}
+::placeholder{
+font-weight: 700;
 color: #000;
 }
 .searchBtn{
