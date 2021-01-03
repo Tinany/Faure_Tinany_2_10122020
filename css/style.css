@@ -91,6 +91,46 @@ font-size: 20px;
 font-weight: 100;
 font-size: 15px;
 }
+/*Search*/
+.search{
+width: auto;
+height: 45px;
+display: flex;
+flex-direction: row;
+margin-top: 8px;
+}    
+.searchInput{
+width: 200px;
+font-size: 15px;
+padding: 10px;
+border: 1px solid #ececec;
+color: #000;
+}
+.searchBtn{
+background-color:  #0065FC;
+font-size: 15px;
+padding: 10px;
+border-top-right-radius: 10px;
+border-bottom-right-radius: 10px;
+margin: 0 -10px;
+border: none; /*remove default button border*/
+color: #fff;
+cursor: pointer;
+}
+.searchIcon_1{
+background-color: #F2F2F2;
+text-align: center;
+width: 25px;
+padding: 12px;
+border: 1px solid #ececec;
+border-top-left-radius: 10px;
+border-bottom-left-radius: 10px;
+color: #000;
+}
+.searchIcon_2{
+display: none;
+}
+
 /*Footer*/
 footer{
 grid-area: footer;
