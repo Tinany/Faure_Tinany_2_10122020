@@ -69,6 +69,28 @@ font-weight: 700;
 display: none;
 }
 /*Main*/
+/*Leading*/
+.leading{
+grid-area: leading;
+display: flex;
+flex-direction: column;
+}
+/*Title*/
+.title{
+display: flex;
+flex-direction:column;
+height: fit-content;
+line-height: 1.7;
+margin-top: 50px;
+}
+.title_1{
+font-weight: 700;
+font-size: 20px;
+}
+.subTitle_1{
+font-weight: 100;
+font-size: 15px;
+}
 /*Footer*/
 footer{
 grid-area: footer;
