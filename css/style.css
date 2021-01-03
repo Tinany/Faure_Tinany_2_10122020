@@ -309,6 +309,81 @@ display: flex;
 flex-direction: column;
 justify-content: space-between;
 padding: 5px 13px;
+}/*Activities*/
+.activities{
+background-color: #fff;
+width: 100%;
+height:765px;
+border-radius: 20px;
+grid-area: activities;
+}
+/*Title*/
+.titleActivities{
+margin: 15px 0 22px 20px;
+font-weight: 700;
+}
+/*Activities Container*/
+.activitiesContainer{
+display: grid;
+height: 654px;
+grid-template-columns: repeat(4,25%);
+grid-template-rows: 1fr 1fr;
+grid-template-areas: 
+"type-1 type-2 type-4 type-5"
+"type-1 type-3 type-4 type-6"  
+}
+.activity_1{
+background-color: #fff;
+height: 630px;
+border-radius: 20px;
+box-shadow: 0 12px 16px #888, 0 3px 12px 0 #999;
+margin: 0 20px;
+}
+.activity_1:hover{
+box-shadow: 0 12px 16px 0 #888,0 17px 50px 0 #888;
+}
+.activity_1 a img{
+width: 100%;
+height: 85%;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+.activity_2{
+background-color: #fff;
+height: 300px;
+border-radius: 20px;
+box-shadow: 0 12px 16px #888, 0 3px 12px 0 #999;
+margin: 0 20px;
+}
+.activity_2:hover{
+box-shadow: 0 12px 16px 0 #888,0 17px 50px 0 #888;
+}
+.activity_2 img{
+width: 100%;
+height: 75%;
+border-top-right-radius: 20px;
+border-top-left-radius: 20px;
+}
+.type-1{
+grid-area: type-1;
+}
+.type-2{
+grid-area: type-2;
+}
+.type-3{
+grid-area: type-3;
+}
+.type-4{
+grid-area: type-4;
+}
+.type-5{
+grid-area: type-5;
+}
+.type-6{
+grid-area: type-6;
+}
+.activityLegend{
+padding: 10px 16px;
 }
 /*Footer*/
 footer{
