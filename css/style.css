@@ -430,12 +430,6 @@ font-weight: 700;
 }
 /*Responsive Smartphone & Tablet*/
 @media only screen and (min-width: 320px) and (max-width: 768px){ /*Order*/
-nav{
-order: 1;
-}
-.leading{
-order: 2;
-}
 .mostPopular{
 order: 3;
 }
@@ -443,9 +437,6 @@ order: 3;
 order: 4;
 }
 .activities{
-order: 4;
-}
-footer{
 order: 5;
 }
 }
@@ -482,6 +473,7 @@ padding-top: 75px;
 margin-left: 80px;
 } 
 nav{
+order: 1;
 display: flex;
 height: fit-content;
 flex-wrap: wrap;
@@ -519,6 +511,9 @@ border-bottom-style: solid;
 width: 50%;
 margin: 10px;
 font-size: 14px;
+}
+.leading{
+order: 2;
 }
 .title{
 height: fit-content;
@@ -562,5 +557,19 @@ flex-wrap: wrap;
 }
 .filterBtn{
 margin: 7px;
+}
+}
+@media only screen and (min-width: 320px) and (max-width: 767px){ /*Footer*/
+footer{
+display: flex;
+flex-direction: column;
+width: 100%;
+height: auto;
+margin: 14px 0 0 -16px;
+order: 6; 
+}
+.footerElement{
+width: fit-content;
+margin: 15px 0 15px 30px;
 }
 }
