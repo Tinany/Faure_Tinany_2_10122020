@@ -433,8 +433,7 @@ font-weight: 700;
 .bodyContainer{
 display: flex;
 flex-direction: column;
-width: 100%;
-height: 100%;
+width: 100vw;
 padding-right: 5%;
 padding-left: 5%;
 }
@@ -461,26 +460,28 @@ font-weight: 900;
 padding-top: 75px;
 margin-left: 80px;
 } 
-nav{
+header{
 order: 1;
-display: flex;
+}
+nav{
+margin: 0;
+margin-left: -20px;
 height: fit-content;
-flex-wrap: wrap;
+width: 100vw;
 }
 .navList{
 justify-content: center;
-width: 100%;
-margin: 0 -15px;
 }
 .navList ul{
 display: flex;
 flex-wrap: nowrap;
-gap: 18px;
-width: 100%;
+width: 100vw;
 }
 .navList ul li{
 font-size: 15px;
-margin: 24px -20px 0 0;
+}
+.liNone{
+display: none;
 }
 .navLink[data-active=true], .navLink:hover{
 border-top: none;
@@ -503,21 +504,24 @@ font-size: 14px;
 }
 .leading{
 order: 2;
+margin-top: 150px;
 }
 .title{
-height: fit-content;
 line-height: 1.3;
 margin-bottom: 22px;
 }
 .title_1{
 font-size: x-large;
-margin-top:150px;
+
 }
 .subTitle_1{
 font-size: 18px;
 }
 .search{
 display: flex;
+width: 100vw;
+justify-content: flex-start;
+margin-left: -8px;
 }
 .searchInput{
 width: 170px;
@@ -551,18 +555,23 @@ margin: 7px;
 @media only screen and (min-width: 320px) and (max-width: 768px){ /*Accomodations & Most Popular*/
 .mostPopular{
 order: 3;
-margin: 0;
+margin-left: -20px;
 border-radius: 0;
+width: 100vw;
 }
 .hostingMPContainer{
 align-items: center;
 margin-left: -25px;
 }
 .hostingMP{
-width: 86%;
+width: 80%;
+height: 140px;
+}
+.hostingMP img{
+width: 45%;
 }
 .hosting-2 .stars{
-padding-top: 60px;
+padding-top: 25px;
 }
 .accommodations{
 order: 4;
@@ -570,19 +579,54 @@ margin: 0;
 border-radius: 0;
 width: 100%;
 height: fit-content;
+background-color: #fff;
+}
+.hostingContainer{
+margin: 0;
+padding-right: 0;
+padding-left: 0;
+}
+.hostingElement{
+width: fit-content;
+margin-left: -7px;
+height: 190px;
+border-radius: 20px;
+box-shadow: 0 3px 12px 0 #888, 0 3px 12px 0 #999;
+}
+.hostingElement img{
+height: 60%;
+display:block;
+border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+padding-top: 3px;
+margin: auto;
+object-fit: cover;
+}
+.hosting-1{
+height: 10px;
+padding: 30px 16px 0 16px;
 }
 }
 @media only screen and (min-width: 320px) and (max-width: 768px){ /*Activities*/
 .activities{
 order: 5;
 height: fit-content;
+width: 320px;
 }
 .activitiesContainer{
 display: flex;
 flex-direction: column;
-gap: 40px;
+row-gap: 40px;
 margin-top: 23px;
 height: fit-content;
+}
+.activity_1, .activity_2{
+height: 190px;
+width: fit-content;
+margin: 0;
+}
+.activity_1 a img, .activity_2 img{
+height: 150px;
 }
 }
 @media only screen and (min-width: 320px) and (max-width: 768px){ /*Footer*/
@@ -590,12 +634,13 @@ footer{
 order: 6; 
 display: flex;
 flex-direction: column;
-width: 100%;
 height: auto;
 margin: 14px 0 0 -16px;
 }
-.footerElement{
-width: fit-content;
-margin: 15px 0 15px 30px;
+.footerContainer{
+width: 100%;
+margin: 0;
+margin-left: 5%;
+line-height: 2;
 }
 }
