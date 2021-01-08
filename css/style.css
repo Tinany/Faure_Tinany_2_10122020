@@ -588,6 +588,9 @@ margin-left: -5%;
 height: fit-content;
 background-color: #fff;
 }
+.titleSection{
+font-weight: 700;
+}
 .titleAC{
 padding-bottom: 20px;
 }
@@ -616,6 +619,9 @@ object-fit: cover;
 .hosting-1{
 height: 10px;
 padding: 30px 16px 0 16px;
+}
+.more{
+margin-left: 20px;
 }
 }
 @media only screen and (min-width: 375px) and (max-width: 768px){ /*Activities*/
