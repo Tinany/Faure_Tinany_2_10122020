@@ -428,7 +428,7 @@ cursor: pointer;
 color: #0065FC;
 font-weight: 700;
 }
-/*Responsive Smartphone & Tablet*/
+/*Responsive Smartphone & Tablet Portrait*/
 @media only screen and (min-width: 425px) and (max-width: 768px){ /*Header & Leading*/
 .bodyContainer{
 display: flex;
@@ -655,4 +655,16 @@ line-height: 2;
 .footerContainer h3{
 margin-top: 20px;
 }
+}
+/*Responsive Tablet Landscape & Laptop*/
+@media only screen and (min-width: 769px) and (max-width: 1440px){ /*Accomodations & Most Popular*/
+}
+/*Responsive 4K*/
+@media only screen and (min-width: 1920px) and (max-width: 2560px){ /*Header & Leading*/
+}
+@media only screen and (min-width: 1920px) and (max-width: 2560px){ /*Accomodations & Most Popular*/
+}
+@media only screen and (min-width: 1920px) and (max-width: 2560px){ /*Activities*/
+}
+@media only screen and (min-width: 1920px) and (max-width: 2560px){ /*Footer*/
 }
