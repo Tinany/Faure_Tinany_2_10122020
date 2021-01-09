@@ -796,7 +796,8 @@ margin-bottom: 20px;
 }
 }
 /*Responsive 4K*/
-@media only screen and (min-width: 1920px) and (max-width: 2560px){ /*Accomodations & Most Popular*/
+@media only screen and (min-width: 1920px) and (max-width: 2560px){ /*Accomodations*/
+.hostingElement{
+width: 30%;
 }
-@media only screen and (min-width: 1920px) and (max-width: 2560px){ /*Footer*/
 }
