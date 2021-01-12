@@ -8,10 +8,10 @@ font-family: Raleway;
 box-sizing: border-box; /*sets how the total width and height is calculated*/
 font-family: 'Raleway', sans-serif;
 width: 100vw;
-margin-left: 0; /*evenly distributed*/
+margin-left: -20px; 
 margin-right: 0; /*evenly distributed*/
 height: auto; /*adjust height*/
-padding-left: 30px;
+padding-left: 50px;
 padding-right: 30px;
 display: grid;
 grid-template-columns: 70% 30%; /*Columns width*/
@@ -22,7 +22,6 @@ grid-template-areas: /*names columns and rows*/
     "accommodations mostPopular"
     "activities activities"
     "footer footer";
-grid-gap: .5rem;        
 }
 a{
 text-decoration: none;
@@ -446,6 +445,7 @@ font-weight: 700;
 display: flex;
 flex-direction: column;
 width: 100vw;
+margin: 0;
 padding-right: 20px;
 padding-left: 20px;
 }
@@ -812,9 +812,22 @@ margin: 35px 0 35px 40px;
 margin-bottom: 20px;
 }
 }
+@media only screen and (min-width: 769px) and (max-width: 1440px){ /*Footer*/
+footer{
+order: 6; 
+width: 100vw;
+margin-left: -30px;
+}
+}
 /*Responsive 4K*/
-@media only screen and (min-width: 1920px) and (max-width: 2560px){ /*Accomodations*/
+@media only screen and (min-width: 1921px) and (max-width: 2560px){ /*Accomodations*/
 .hostingElement{
 width: 30%;
+}
+}
+@media only screen and (min-width: 1921px) and (max-width: 2560px){ /*Footer*/
+footer{
+width: 100vw;
+margin-left: -30px;
 }
 }
