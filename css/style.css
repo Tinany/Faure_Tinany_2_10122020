@@ -737,6 +737,21 @@ font-size: 15px;
 font-size: 14px;
 }
 }
+@media only screen and (min-width: 426px) and (max-width: 768px){ /*Footer*/
+footer{
+order: 6; 
+width: 100vw;
+margin-left: -20px;
+}
+.footerContainer{
+width: 33%;
+height: fit-content;
+margin: 35px 0 35px 40px;
+}
+.footerContainer h3{
+margin-bottom: 20px;
+}
+}
 /*Responsive Tablet Landscape & Laptop*/
 @media only screen and (min-width: 769px) and (max-width: 1440px){ /*Accomodations & Most Popular*/
 .accommodations{
@@ -788,21 +803,6 @@ height: 300px;
 }
 .activity_1 a img {
 height: 245px;
-}
-}
-@media only screen and (min-width: 426px) and (max-width: 768px){ /*Footer*/
-footer{
-order: 6; 
-width: 100vw;
-margin-left: -20px;
-}
-.footerContainer{
-width: 33%;
-height: fit-content;
-margin: 35px 0 35px 40px;
-}
-.footerContainer h3{
-margin-bottom: 20px;
 }
 }
 @media only screen and (min-width: 769px) and (max-width: 1440px){ /*Footer*/
