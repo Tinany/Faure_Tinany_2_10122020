@@ -790,7 +790,7 @@ height: 300px;
 height: 245px;
 }
 }
-@media only screen and (max-width: 768px){ /*Footer*/
+@media only screen and (min-width: 426px) and (max-width: 768px){ /*Footer*/
 footer{
 order: 6; 
 width: 100vw;
