@@ -440,7 +440,7 @@ color: #0065FC;
 font-weight: 700;
 }
 /*Responsive Smartphone & Tablet Portrait*/
-@media only screen and (min-width: 375px) and (max-width: 768px){ /*Header & Leading*/
+@media only screen and (min-width: 200px) and (max-width: 768px){ /*Header & Leading*/
 .bodyContainer{
 display: flex;
 flex-direction: column;
@@ -587,7 +587,7 @@ margin-left: 5px;
 font-size: 15px;
 }
 }
-@media only screen and (min-width: 375px) and (max-width: 768px){ /*Accomodations & Most Popular*/
+@media only screen and (min-width: 200px) and (max-width: 768px){ /*Accomodations & Most Popular*/
 .mostPopular{
 order: 3;
 border-radius: 0;
@@ -684,7 +684,7 @@ padding-top: 5px;
 margin-left: 20px;
 }
 }
-@media only screen and (min-width: 375px) and (max-width: 768px){ /*Activities*/
+@media only screen and (min-width: 200px) and (max-width: 768px){ /*Activities*/
 .activities{
 order: 5;
 height: fit-content;
@@ -712,7 +712,7 @@ font-size: 15px;
 font-weight: 700;
 }
 }
-@media only screen and (min-width: 375px) and (max-width: 425px){ /*Footer*/
+@media only screen and (min-width: 200px) and (max-width: 425px){ /*Footer*/
 footer{
 order: 6; 
 display: flex;
@@ -790,7 +790,7 @@ height: 300px;
 height: 245px;
 }
 }
-@media only screen and (min-width: 426px) and (max-width: 768px){ /*Footer*/
+@media only screen and (max-width: 768px){ /*Footer*/
 footer{
 order: 6; 
 width: 100vw;
