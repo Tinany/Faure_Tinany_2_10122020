@@ -291,7 +291,7 @@ display: flex;
 flex-direction: row;
 align-items: baseline;
 justify-content: space-between;
-width: 85%;
+width: 80%;
 font-weight: 700;
 margin-bottom: 20px;
 }
@@ -433,7 +433,7 @@ flex-direction: row;
 .footerContainer{
 width: 30%;
 margin: 35px;
-margin-left: 90px;
+margin-left: 50px;
 line-height: 2;
 }
 .footerLinks {
@@ -602,8 +602,8 @@ margin-left: -20px;
 padding-bottom: 35px;
 height: fit-content;
 }
-.fa-chart-line{
-margin-left: -50px;
+.titleMP{
+width: 90%;
 }
 .hostingMPContainer{
 align-items: center;
@@ -657,10 +657,9 @@ margin: 0;
 padding-right: 0;
 padding-left: 0;
 }
-
 .hostingContainer a{
-    width: 100%;
-    max-width: 600px;
+width: 100%;
+max-width: 600px;
 }
 .hostingElement{
 margin: 0 10px;
@@ -696,6 +695,7 @@ padding-top: 5px;
 }
 .more{
 margin-left: 10px;
+margin-top: 40px;
 }
 }
 @media only screen and (max-width: 768px){ /*Activities*/
@@ -755,7 +755,7 @@ display: flex;
 flex-direction: column;
 width: 100vw;
 height: auto;
-margin: 50px 0 0 -22px;
+margin: 20px 0 0 -22px;
 padding-top: 20px;
 padding-bottom: 35px;
 }
@@ -832,6 +832,9 @@ padding-top: 5px;
 padding: 15px 16px 0 16px;
 line-height: 1.5;
 }
+.more{
+margin: 40px 0 10px 30px;
+}
 }
 @media only screen and (min-width: 769px) and (max-width: 1024px){ /*Activities*/
 .activitiesContainer {
@@ -848,6 +851,26 @@ height: 300px;
 }
 .activity_1 figure img {
 height: 245px;
+}
+.type-1{
+margin-right: 15px;
+}
+.type-2{
+margin-right: 15px;
+}
+.type-3{
+margin-right: 15px;
+}
+.type-4{
+margin-right: 15px;
+}
+.type-5{
+margin-left: 0;
+margin-right: 15px;
+}
+.type-6{
+margin-left: 0;
+margin-right: 15px;
 }
 }
 @media only screen and (min-width: 769px) and (max-width: 1440px){ /*Footer*/
