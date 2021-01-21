@@ -425,7 +425,7 @@ footer{
 grid-area: footer;
 width: 100vw;
 margin-left: -47px;
-background-color: #ececec;
+background-color:#F2F2F2;
 height: fit-content;
 display: flex;
 flex-direction: row;
